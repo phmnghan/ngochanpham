@@ -26,7 +26,7 @@ function generateproduct(product) {
         '
     return generatedproduct;
 }
-const product = [
+const products = [
     name: 'Pingky',
     short_desc: 'Cute bed set',
     tag:'bed',
@@ -35,4 +35,8 @@ const product = [
     discount: 50, 
     price: 14000000
 ]
-generateproduct(product)
+const container = document.getElementById('container');
+
+for (const product of products) {
+  const productHTML = generateproduct(product);
+  container.innerHTML += generatedproduct;
