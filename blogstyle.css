@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+#nav-blog {
+    display: inline-flex;
+    flex-wrap: wrap;
+    isolation: isolate;
+}
+
+#nav-background {
+    padding: 0px;
+	margin: 0px;
+    z-index: -1;
+    position: relative;
+}
+
+#nav-title {
+    font-family: 'Poppins';
+}
+
+#blog {
+    margin-top: 50px;
+    margin-left: 700px;
+    padding: 40px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#nav-l3 {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#blog-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#blog-posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.blog-img {
+    border-radius: 10%;
+}
+
+.blog-support {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.blog-support-img {
+    object-fit: none;
+}
+
+.blog-support-name {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.blog-info {
+    font-family: 'Poppins';
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.blog-title {
+    font-family: 'Poppins';
+    color: black;
+}
+
+.blog-content {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+}
+
+.blog-read-more {
+    font-family: 'Poppins';
+    display:inline-block;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+#blog-others {
+    display: flex;
+    flex-direction: column;
+}
+
+#categories {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+}
+
+#search-box {
+    border-radius: 10%;
+    background-color: white;
+    object-fit: fill;
+}
+
+#categories-title {
+    font-family: 'Poppins';
+    color: black;
+}
+
+.categories-type {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categories-tag {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+}
+
+.categories-quantity {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+}
+
+#other-posts {
+    display: flex;
+    flex-direction: column;
+}
+
+#posts-title {
+    font-family: 'Poppins';
+    color: black;
+}
+
+.recent-posts {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.post-img {
+    object-fit: none;
+    border-radius: 10%;
+}
+
+.post-content {
+    font-family: 'Poppins';
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    object-fit:fill;
+}
+
+.post-title {
+    font-family: 'Poppins';
+    color: black;
+    word-break: normal;
+}
+
+.post-date {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+}
+
+#feature {
+    padding: 20px;
+    background-color: rgb(255, 217, 239);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature-tag {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-name {
+    font-family: 'Poppins';
+    color: black;
+}
+
+.feature-disc {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+}

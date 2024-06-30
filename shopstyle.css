@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+#nav-shop {
+    display: inline-flex;
+    flex-wrap: wrap;
+    isolation: isolate;
+}
+
+#nav-background {
+    padding: 0px;
+	margin: 0px;
+    z-index: -1;
+    position: relative;
+}
+
+#nav-title {
+    font-family: 'Poppins';
+}
+
+#shop {
+    font-family: 'Poppins';
+    margin-top: 50px;
+    margin-left: 700px;
+    padding: 40px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#nav-l3 {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#products-nav {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 217, 239);
+}
+
+#filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: spca-around;
+}
+
+.products-nav-icon {
+    object-fit: none;
+}
+
+#final {
+    font-family: 'Poppins';
+}
+
+#feature {
+    padding: 20px;
+    background-color: rgb(255, 217, 239);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature-tag {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-name {
+    font-family: 'Poppins';
+    color: black;
+}
+
+.feature-disc {
+    font-family: 'Poppins';
+    color: rgb(156, 156, 156);
+}
